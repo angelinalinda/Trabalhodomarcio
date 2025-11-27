@@ -2,15 +2,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
     <header>
         <main>
-            <h1>Login</h1>
+            <h1>Cadastre-se</h1>
             <form action="">
                 <fieldset class="css">
+                    <div>
+                        <label for="nome">Nome completo</label>
+                        <input type="text" placeholder ="Digite seu nome..." id="nome" required>
+                    </div>
                     <div>
                         <label for="email">E-mail:</label>
                         <input type="email" placeholder="Digite seu e-mail..." id="email" required>
@@ -20,8 +24,12 @@
                         <input type="password" placeholder="Digite sua senha..." id="senha" required
                         maxlength="18" minlength="6">
                     </div>
-                    <p>Não tem uma conta?</p>
-                    <a href="/cadastro/cadastro.html"><strong>Cadastre-se</strong></a>
+                    <div>
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="date" id="nascimento" max="2015-01-01" required>
+                </div>
+                    <p>Já tem uma conta?</p>
+                    <a href="/login/login.html"><strong>Login</strong></a>
                     <button><a href="">Enviar</a></button>
                 </fieldset>
             </form>
