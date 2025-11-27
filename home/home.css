@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+    
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+header{
+    background: black;
+    padding-block: 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    img{
+        width: 4rem;
+        height: rem;
+        object-fit: cover;
+        position: absolute;
+        left: 21%;
+        top: 25%;
+    }
+}
+
+.header-conteiner{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+}
+header{
+    height: 4rem;           
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+}
+
+body{
+    padding-top: 10rem;
+    background-color: #ffecd5;     
+}
+.header-conteiner ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.header-conteiner a{
+    color: #f8b51c;
+    text-decoration: none;
+}
+
+.header-conteiner a:hover{
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: ease-in-out .4s;
+}
+
+.linha-com-texto {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.linha-com-texto::before,
+.linha-com-texto::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+}
+
+.linha-com-texto::before {
+    margin-right: .5rem;
+}
+
+.linha-com-texto::after {
+    margin-left: .5rem;
+}
+
+.linha-com-texto span {
+    color: black;
+    font-size: 1.6rem;
+    padding-top: 5%;
+}
+
+  
+.moça-diva{
+    display: flex;  
+    align-items: center;        
+    gap: 0.8rem;          
+    padding: 3.4rem;
+    border-radius: 2rem;
+    width: fit-content;    
+    background-color: #f8b51c;
+    color: #fff;
+    font-size: 1.2rem;
+   
+}
+
+.moça-diva img{  
+    border-radius: 1.4rem; 
+    object-fit: cover;
+}
+
+
+.moça-diva p{
+ font-size: 1.6rem;
+}
+
+.moça-diva h3{
+    font-size: 2rem;
+   }
+
+   .elefantes{
+    display: flex;  
+    align-items: center;        
+    gap: 0.8rem;          
+    padding: 3.4rem;
+    border-radius: 2rem;
+    width: fit-content;    
+    background-color: #f8b51c;
+    color: #fff;
+    padding-top: 5%;
+   }
+
+   .hienas{
+    display: flex;  
+    align-items: center;        
+    gap: 0.8rem;          
+    padding: 3.4rem;
+    border-radius: 2rem;
+    width: fit-content;    
+    background-color: #f8b51c;
+    color: #fff;
+    padding-top: 5%;
+   }
+   
+   .zebras{
+    display: flex;  
+    align-items: center;        
+    gap: 0.8rem;          
+    padding: 3.4rem;
+    border-radius: 2rem;
+    width: fit-content;    
+    background-color: #f8b51c;
+    color: #fff;
+    padding-top: 5%;
+   }
+      
+   

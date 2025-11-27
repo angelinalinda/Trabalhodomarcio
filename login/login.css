@@ -1,81 +1,87 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #067749;
+    background-color: #135d3a;
 }
 
-:root{
-    font-size: 62.5%
+:root {
+    font-size: 62.5%;
 }
 
-
-h1{
+h1 {
     color: #fff;
     font-size: 6.2rem;
-
 }
 
-fieldset{
+
+fieldset {
     margin-bottom: 2rem;
     padding: 2rem;
     border-radius: 1rem;
 }
 
+
 body {
     margin: 0;
     height: 100vh;
     display: flex;
-    justify-content: center; 
-    align-items: center;   
-  }
-  
-  form {
-    width: 40rem;
-    div{
-        font-size: 3.0rem ;
-        color: #fff;
-    }
+    justify-content: center;
+    align-items: center;
+}
 
-    input {
-        background-color: #fff;
-        margin-bottom: 15px;
-        width: 25rem;
-        padding: 1rem;    
-        font-size: 1.2rem; 
-        border-radius: 0.7rem;
-        }
-  }
-  
-  button{
+form {
+    width: 40rem;
+}
+
+form div {
+    font-size: 3rem;
+    color: #fff;
+}
+
+
+input {
+    background-color: #fff;
+    margin-bottom: 15px;
+    width: 25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 0.7rem;
+    border: none;
+}
+
+
+button {
     padding: 15px 25px;
     border: none;
     color: #fff;
-    margin-bottom: 2.0rem;
+    margin-bottom: 2rem;
     cursor: pointer;
     font-weight: bold;
     display: block;
     width: fit-content;
     margin: 0 auto;
-    text-decoration: none;
-  }
-  
-  button:hover{
-  border-radius: 1.2rem;
-  background: black;
-  color
-  transition: background .4s;
+    background-color: #0d3d27; 
 }
 
- p{
-    padding: 1.6rem 1.2rem;
-    color: #FFF;
-    font-size: 1.7rem;
- }
 
- a{
+button:hover {
+    border-radius: 1.2rem;
+    background: black;
+    transition: background .4s;
+}
+
+
+p {
+    padding: 1.6rem 1.2rem;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+
+a {
     display: block;
-    color: #FFF;
+    color: #fff;
     font-size: 2.1rem;
     text-decoration: none;
- }
+}
