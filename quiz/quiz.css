@@ -77,9 +77,9 @@ body {
     padding: 2rem;
     border-radius: 2rem;
     margin: 2rem;
-    
     strong{
         color: #fff;
+        font-size: 2rem;
     }
 }
 
@@ -88,9 +88,9 @@ body {
     padding: 2rem;
     border-radius: 2rem;
     margin: 2rem;
-    
     strong{
         color: #fff;
+        font-size: 2rem;
     }
 }
 
@@ -99,9 +99,9 @@ body {
     padding: 2rem;
     border-radius: 2rem;
     margin: 2rem;
-    
     strong{
         color: #fff;
+        font-size: 2rem;
     }
 }
 
@@ -110,9 +110,9 @@ body {
     padding: 2rem;
     border-radius: 2rem;
     margin: 2rem;
-    
     strong{
         color: #fff;
+        font-size: 2rem;
     }
 }
 
@@ -128,6 +128,8 @@ body {
   .pergunta3,
   .pergunta4{
     margin-bottom:1.5rem;
+    color: white;
+    font-size: 1.9rem;
   }
   
   .pergunta1 input,
@@ -144,7 +146,6 @@ body {
     display:block;
     padding:.6rem;
     margin:4rem;
-    background:#fff;
     border-radius:.6rem;
     cursor:pointer;
   }
@@ -153,12 +154,12 @@ body {
   .pergunta2 input:checked + label,
   .pergunta3 input:checked + label,
   .pergunta4 input:checked + label{
-    background:#ddd;
+    background: #aaa8a0;
   }
   
   .certa::after{
     content:" ✓";
-    color:green;
+    color:rgb(1, 168, 1);
     font-weight:bold;
   }
   
