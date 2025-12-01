@@ -8,6 +8,7 @@
 
 }
 
+
 :root {
     font-size: 62.5%;
 }
@@ -73,18 +74,18 @@ body {
 }
 
 h1{
-margin: 2;
+margin: 5rem;
 display: flex;
 justify-content: center;
 }
 
 .bandeira{
     gap: 0.8rem;
-    padding: 4.5rem;
+    padding: 3rem;
     border-radius: 2rem;
     background-color: #ff3131;
     color: #fff;
-    margin: 3rem 8rem;
+    margin: 3rem 1rem;
     display: inline-block;
     width: 43.5rem;
 
@@ -102,14 +103,14 @@ font-size: 1.9rem;
 
 .esculturas{
     gap: 0.8rem;
-    padding: 5.4rem;
+    padding: 3rem;
     border-radius: 2rem;
     width: fit-content;
     background-color: #067749;
     color: #fff;
-    margin: 2rem 14rem;
+    margin: 2rem rem;
     display: inline-block;
-    width: 45.5rem;
+    width: 40.5rem;
 }
 
 .esculturas p{
@@ -124,14 +125,14 @@ font-size: 1.9rem;
 
 .pretos {
     gap: 0.8rem;
-    padding: 4.5rem;
+    padding: 3rem;
     border-radius: 2rem;
     background-color: #001489;
-    margin: 5rem 10rem;
+    margin: rem rem;
     color: #fff;
     display: inline-block;
     width: 47.6rem;
-    vertical-align: baseline;
+    
 }
 
 .pretos p{
