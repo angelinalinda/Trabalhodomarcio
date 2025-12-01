@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background: black;
+    padding-block: 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    img {
+        width: 4rem;
+        object-fit: cover;
+        position: absolute;
+        left: 5%;
+        top: 27%;
+    }
+}
+
+.header-conteiner {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+}
+
+header {
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+}
+
+body {
+    padding-top: 10rem;
+    background-color: #ffecd5;
+}
+
+.header-conteiner ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.header-conteiner a {
+    color: #f8b51c;
+    text-decoration: none;
+}
+
+.header-conteiner a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: ease-in-out .4s;
+}
+
+.comida1{
+    gap: 0.8rem;
+    padding: 4.5rem;
+    background-color: #001489;
+    color: #fff;
+    width: rem;
+    display: inline-block;
+    margin: 2rem;
+
+}
+
+.comida1 p{
+padding-right: 10%;
+font-size: 1.9rem;
+}
+
+.comida1 h3{
+    padding-right: 9%;
+    font-size: 3rem;
+    }
+
+.comida2{
+    gap: 0.8rem;
+    padding: 5rem;
+    width: fit-content;
+    width: rem;
+    background-color:#067749;
+    color: #fff;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.comida2 p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.comida2 h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
+
+.comida3 {
+    gap: 0.8rem;
+    padding: 5rem;
+    width: fit-content;
+    width: rem;
+    background-color: red;
+    color: #fff;
+    margin: 2rem;
+    display: inline-block;
+}
+
+.comida3 p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.comida3 h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
+
+.comida4 {
+    gap: 0.8rem;
+    padding: 5rem;
+    width: fit-content;
+    width: rem;
+    background-color: #f8b51c;
+    color: #fff;
+    margin: 2rem;
+    display: inline-block;
+    
+}
+
+.comida4 p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.comida4 h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
+
+.comida1 img,
+.comida2 img, 
+.comida3 img,
+.comida4 img{
+    width: 35rem;
+    height: 30rem;
+}

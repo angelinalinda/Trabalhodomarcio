@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    background: black;
+    padding-block: 3rem;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    img {
+        width: 4rem;
+        object-fit: cover;
+        position: absolute;
+        left: 5%;
+        top: 27%;
+    }
+}
+
+.header-conteiner {
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+}
+
+header {
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+}
+
+body {
+    padding-top: 10rem;
+    background-color: #ffecd5;
+}
+
+.header-conteiner ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+.header-conteiner a {
+    color: #f8b51c;
+    text-decoration: none;
+}
+
+.header-conteiner a:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+    transition: ease-in-out .4s;
+}
+
+h1{
+margin: 2;
+display: flex;
+justify-content: center;
+}
+
+.elefantenaestrada{
+    gap: 0.8rem;
+    padding: 4.5rem;
+    border-radius: 2rem;
+    background-color: #067749;
+    color: #fff;
+    margin: 3rem 30rem;
+    display: inline-block;
+    width: 45.5rem;
+
+}
+
+.elefantenaestrada p{
+padding-right: 10%;
+font-size: 1.9rem;
+}
+
+.elefantenaestrada h3{
+    padding-right: 9%;
+    font-size: 3rem;
+    }
+
+.montanha{
+    gap: 0.8rem;
+    padding: 5.4rem;
+    border-radius: 2rem;
+    width: fit-content;
+    background-color: #f8b51c;
+    color: #fff;
+    margin: 2rem 14rem;
+    display: inline-block;
+    width: 45.5rem;
+}
+
+.montanha p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.montanha h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
+
+.praiadaazul {
+    gap: 0.8rem;
+    padding: 4.5rem;
+    border-radius: 2rem;
+    background-color: #001489;
+    margin: 5rem 30rem;
+    color: #fff;
+    display: inline-block;
+    width: 47.6rem;
+    vertical-align: baseline;
+}
+
+.praiadaazul p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.praiadaazul h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
+
+.pedraemagua {
+    gap: 0.8rem;
+    padding: 4.5rem;
+    border-radius: 2rem;
+    background-color: #000000;
+    margin: 5rem 10rem;
+    color: #fff;
+    display: inline-block;
+    width: 47.6rem;
+    vertical-align: baseline;
+}
+
+.pedraemagua p{
+    padding-right: 10%;
+    font-size: 1.9rem;
+    }
+    
+.pedraemagua h3{
+    padding-right: 10%;
+    font-size: 3rem;
+}
